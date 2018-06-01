@@ -12,11 +12,11 @@
 		453553C820B557D20042661F /* bananas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553BF20B557D20042661F /* bananas.mp3 */; };
 		453553C920B557D20042661F /* cabbage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C020B557D20042661F /* cabbage.mp3 */; };
 		453553CA20B557D20042661F /* coconut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C120B557D20042661F /* coconut.mp3 */; };
-		453553CB20B557D20042661F /* cucumber.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C220B557D20042661F /* cucumber.mp3 */; };
 		453553CC20B557D20042661F /* lemon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C320B557D20042661F /* lemon.mp3 */; };
-		453553CD20B557D20042661F /* pumpkin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C420B557D20042661F /* pumpkin.mp3 */; };
 		453553CE20B557D20042661F /* traigiday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C520B557D20042661F /* traigiday.mp3 */; };
 		453553CF20B557D20042661F /* watermelon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 453553C620B557D20042661F /* watermelon.mp3 */; };
+		4589994F20C18182000C73F9 /* cucumber.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4589994E20C18182000C73F9 /* cucumber.mp3 */; };
+		4589995120C1818F000C73F9 /* pumpkin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4589995020C1818F000C73F9 /* pumpkin.mp3 */; };
 		73CDA9D620B48249009A0A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CDA9D520B48249009A0A8F /* LaunchScreen.storyboard */; };
 		BB0B1C881D8C9BA900C09901 /* LogoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0B1C871D8C9BA900C09901 /* LogoScene.swift */; };
 		BB0C20551E9EDAE8004C8E84 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */; };
@@ -131,11 +131,11 @@
 		453553BF20B557D20042661F /* bananas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bananas.mp3; path = "../../New folder/bananas.mp3"; sourceTree = "<group>"; };
 		453553C020B557D20042661F /* cabbage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cabbage.mp3; path = "../../New folder/cabbage.mp3"; sourceTree = "<group>"; };
 		453553C120B557D20042661F /* coconut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = coconut.mp3; path = "../../New folder/coconut.mp3"; sourceTree = "<group>"; };
-		453553C220B557D20042661F /* cucumber.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cucumber.mp3; path = "../../New folder/cucumber.mp3"; sourceTree = "<group>"; };
 		453553C320B557D20042661F /* lemon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lemon.mp3; path = "../../New folder/lemon.mp3"; sourceTree = "<group>"; };
-		453553C420B557D20042661F /* pumpkin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pumpkin.mp3; path = "../../New folder/pumpkin.mp3"; sourceTree = "<group>"; };
 		453553C520B557D20042661F /* traigiday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = traigiday.mp3; path = "../../New folder/traigiday.mp3"; sourceTree = "<group>"; };
 		453553C620B557D20042661F /* watermelon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = watermelon.mp3; path = "../../New folder/watermelon.mp3"; sourceTree = "<group>"; };
+		4589994E20C18182000C73F9 /* cucumber.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cucumber.mp3; path = "../../New folder/cucumber.mp3"; sourceTree = "<group>"; };
+		4589995020C1818F000C73F9 /* pumpkin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pumpkin.mp3; path = "../../New folder/pumpkin.mp3"; sourceTree = "<group>"; };
 		73CDA9D520B48249009A0A8F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0B1C871D8C9BA900C09901 /* LogoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoScene.swift; path = Scenes/LogoScene.swift; sourceTree = "<group>"; };
 		BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsManager.swift; path = Utility/UserDefaultsManager.swift; sourceTree = "<group>"; };
@@ -248,13 +248,13 @@
 		BB281B7A1D7899AB00229A97 /* SFX */ = {
 			isa = PBXGroup;
 			children = (
+				4589995020C1818F000C73F9 /* pumpkin.mp3 */,
+				4589994E20C18182000C73F9 /* cucumber.mp3 */,
 				453553BE20B557D20042661F /* aubergine.mp3 */,
 				453553BF20B557D20042661F /* bananas.mp3 */,
 				453553C020B557D20042661F /* cabbage.mp3 */,
 				453553C120B557D20042661F /* coconut.mp3 */,
-				453553C220B557D20042661F /* cucumber.mp3 */,
 				453553C320B557D20042661F /* lemon.mp3 */,
-				453553C420B557D20042661F /* pumpkin.mp3 */,
 				453553C520B557D20042661F /* traigiday.mp3 */,
 				453553C620B557D20042661F /* watermelon.mp3 */,
 				453553BA20B557A10042661F /* apple.mp3 */,
@@ -607,11 +607,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453553CB20B557D20042661F /* cucumber.mp3 in Resources */,
-				453553CD20B557D20042661F /* pumpkin.mp3 in Resources */,
 				453553C820B557D20042661F /* bananas.mp3 in Resources */,
 				BB459C461E9EB16B0027CA9B /* cat_meow_1.mp3 in Resources */,
 				BB459C471E9EB16B0027CA9B /* cat_meow_2.mp3 in Resources */,
+				4589994F20C18182000C73F9 /* cucumber.mp3 in Resources */,
 				BB459C481E9EB16B0027CA9B /* cat_meow_3.mp3 in Resources */,
 				453553CF20B557D20042661F /* watermelon.mp3 in Resources */,
 				BB459C491E9EB16B0027CA9B /* cat_meow_4.mp3 in Resources */,
@@ -625,6 +624,7 @@
 				BBD0A8E21D78F12C00002F71 /* bensound-jazzyfrenchy.mp3 in Resources */,
 				453553C920B557D20042661F /* cabbage.mp3 in Resources */,
 				BB98D4811DC3A49C00D17C8D /* LCDScene.sks in Resources */,
+				4589995120C1818F000C73F9 /* pumpkin.mp3 in Resources */,
 				BBA2E4B11D74A62C00853E63 /* Main.storyboard in Resources */,
 				453553C720B557D20042661F /* aubergine.mp3 in Resources */,
 				BB476FB71F056431005EB2AF /* move.wav in Resources */,
